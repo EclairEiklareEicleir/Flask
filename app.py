@@ -11,7 +11,7 @@ from sentence_transformers import SentenceTransformer, util
 from spellchecker import SpellChecker
 import json
 
-app = Flask(__name__, template_folder='C:/xampp/htdocs/admissions/', static_folder='C:/xampp/htdocs/admissions/css')
+app = Flask(__name__)
 CORS(app)
 
 
